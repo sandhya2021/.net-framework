@@ -2,10 +2,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: VPC template 2010-09-09
 # This CloudFormation template build an Apache application 
-Parameters:
-  KeyPair:
-    Description: Name of the keypair to use for SSH access
-    Type: String
 Resources:
   VPC:
     Type: AWS::EC2::VPC
