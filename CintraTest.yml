@@ -85,8 +85,6 @@ Resources:
       AvailabilityZone: !Select [ 0, !GetAZs ] 
       ImageId:  ami-0e80a462ede03e653
       InstanceType: t2.micro
-      KeyName: 
-        Ref: KeyPair
       SecurityGroupIds:
         - Ref: SSHSecurityGroup
       # we install our web server with user data
